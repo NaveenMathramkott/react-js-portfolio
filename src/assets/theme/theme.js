@@ -42,6 +42,9 @@ const darkTheme = createTheme({
       main: "#bd3b22",
       contrastText: "#fff",
     },
+    progress: {
+      main: "#bd3b22",
+    },
     secondary: {
       main: "#2C394B",
       contrastText: "#fff",
@@ -55,21 +58,24 @@ const darkTheme = createTheme({
       disabledBackground: "rgb(150,150,150)",
     },
   },
-  logoColor: "#fff",
+  logoColor: "#bd3b22",
   ...baseTheme,
 });
 
 const lightTheme = createTheme({
   palette: {
     background: {
-      default: "#FFBB5C",
+      default: "#b38a82",
     },
     primary: {
-      main: "#9E7777",
+      main: "#000",
       contrastText: "#000",
     },
+    progress: {
+      main: "#bd3b22",
+    },
     secondary: {
-      main: "#6F4C5B",
+      main: "#a19762",
       contrastText: "rgb(230,230,230)",
     },
     text: {
@@ -78,14 +84,14 @@ const lightTheme = createTheme({
     },
     action: {
       disabled: "rgb(70,70,70)",
-      disabledBackground: "rgb(150,150,150)",
+      disabledBackground: "rgb(255, 255, 255)",
     },
   },
   backgroundSecondary: {
     bg: "#6F4C5B",
     text: "rgb(230,230,230) ",
   },
-  logoColor: "#6F4C5B",
+  logoColor: "#ffff",
   ...baseTheme,
 });
 
