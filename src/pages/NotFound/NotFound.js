@@ -1,7 +1,7 @@
 import React from "react";
 
 const NotFound = () => {
-  return <div></div>;
+  return <div>Site under construction</div>;
 };
 
 export default NotFound;

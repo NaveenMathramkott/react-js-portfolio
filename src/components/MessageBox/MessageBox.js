@@ -22,12 +22,7 @@ const MessageBox = () => {
   const SendEmail = (object) => {
     setSending(true);
     emailjs
-      .send(
-        "service_nva6v0x",
-        "template_47fdyh7",
-        object,
-        "user_qT3we7KxrmdHKOFJe28hB"
-      )
+      .send("service_uhk989s", "template_axe9s25", object, "s3qymhR2NWcpFvVdW")
       .then(
         (result) => {
           setSendEmailSuccess(true);
@@ -155,8 +150,7 @@ const MessageBox = () => {
                 transition={{ delay: 1.5, duration: 1 }}
                 variant="body2"
               >
-                Your message has been successfully sent, i'll reply as soon as
-                possible.
+                {formik.values.name}, Your message has been successfully sent!.
               </Typography>
             </Box>
           )}
