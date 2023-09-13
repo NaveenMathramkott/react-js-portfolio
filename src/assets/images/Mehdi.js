@@ -45,13 +45,6 @@ const pathProps = {
   },
 };
 
-const rectProps = {
-  variants: path(866),
-  transition: {
-    duration: 1.5,
-  },
-};
-
 const Mehdi = (props) => {
   return (
     <>
