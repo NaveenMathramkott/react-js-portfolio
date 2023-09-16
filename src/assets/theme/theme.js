@@ -57,6 +57,7 @@ const darkTheme = createTheme({
       disabled: "rgb(70,70,70)",
       disabledBackground: "rgb(150,150,150)",
     },
+    dividerColor: "#bd3b22",
   },
   logoColor: "#bd3b22",
   ...baseTheme,
@@ -68,14 +69,14 @@ const lightTheme = createTheme({
       default: "#b38a82",
     },
     primary: {
-      main: "#000",
-      contrastText: "#000",
+      main: "#824f3b",
+      contrastText: "#fff",
     },
     progress: {
-      main: "#bd3b22",
+      main: "#755a50",
     },
     secondary: {
-      main: "#a19762",
+      main: "#2C394B",
       contrastText: "rgb(230,230,230)",
     },
     text: {
@@ -86,6 +87,7 @@ const lightTheme = createTheme({
       disabled: "rgb(70,70,70)",
       disabledBackground: "rgb(255, 255, 255)",
     },
+    dividerColor: "#824f3b",
   },
   backgroundSecondary: {
     bg: "#6F4C5B",
