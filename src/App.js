@@ -10,15 +10,16 @@ import ThemeContext from "./contexts/themeContext";
 import LoaderContext from "./contexts/loaderContext";
 
 function App() {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
     const [isLoading, setIsLoading] = useState(true);
-    useEffect(() => {
-        if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-            setIsDarkMode(true);
-        } else {
-            setIsDarkMode(false);
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    //         setIsDarkMode(true);
+    //     } else {
+    //         setIsDarkMode(false);
+    //     }
+    // }, []);
+    
     return (
         <Router>
             <Suspense fallback={<div></div>}>
