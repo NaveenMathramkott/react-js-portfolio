@@ -1,11 +1,11 @@
 import React from "react";
 import LoaderContainer from "../../containers/LoaderContainer";
-import Mehdi from "../../assets/images/Mehdi";
+import NvnAvt from "../../assets/images/NvnAvt";
 
 const Loader = () => {
   return (
     <LoaderContainer>
-      <Mehdi width={450} />
+      <NvnAvt width={450} />
     </LoaderContainer>
   );
 };

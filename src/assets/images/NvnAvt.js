@@ -45,7 +45,7 @@ const pathProps = {
   },
 };
 
-const Mehdi = (props) => {
+const NvnAvt = (props) => {
   return (
     <>
       <motion.div variants={container} initial="hidden" animate="visible">
@@ -139,4 +139,4 @@ const Mehdi = (props) => {
   );
 };
 
-export default Mehdi;
+export default NvnAvt;
