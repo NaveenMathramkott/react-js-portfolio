@@ -1,25 +1,30 @@
-import mdk from './assets/images/mdk.jpg'
-import truewin from './assets/images/truewin.jpg'
-import hiba from './assets/images/hiba-exports.jpg'
-import lillyPad from './assets/images/lillyPad.png'
-
+import mdk from "./assets/images/mdk.jpg";
+import truewin from "./assets/images/truewin.jpg";
+import hiba from "./assets/images/hiba-exports.jpg";
+import lillyPad from "./assets/images/lillyPad.png";
+import chatApp from "./assets/images/chat-app.png";
+import retroGame from "./assets/images/retro-game.png";
 
 const skillsList = [
-  { title: "React JS", value: 80 },
-  { title: "React Native", value: 80 },
-  { title: "JavaScript", value: 80 },
-  { title: "TypeScript", value: 75 },
-  { title: "Axios", value: 75 },
-  { title: "CSS", value: 75 },
-  { title: "Redux", value: 70 },
-  { title: "Figma", value: 70 },
-  { title: "Git", value: 70 },
+  { title: "React JS", value: 90 },
+  { title: "React Native", value: 90 },
+  { title: "JavaScript & ES6", value: 88 },
+  { title: "State Management", value: 80 },
+  { title: "TypeScript", value: 83 },
+  { title: "CSS3", value: 90 },
+  { title: "HTML5", value: 90 },
+  { title: "Git", value: 84 },
+  { title: "Node JS", value: 75 },
+  { title: "MongoDB", value: 65 },
+  { title: "SEO", value: 70 },
+  { title: "Testing", value: 75 },
+  { title: "Figma", value: 75 },
 ];
 const projectList = [
   {
     id: 1,
     title: "LillyPad CRM",
-    technologies: ["React Native", "css", "Redux Toolkit", "Node",'Flipper'],
+    technologies: ["React Native", "css", "Redux Toolkit", "Node", "Flipper"],
     backgroundImage:
       "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
     frontImage: lillyPad,
@@ -40,7 +45,7 @@ const projectList = [
     technologies: ["React JS", "Bootstrap", "Node Js", "Mongodb"],
     backgroundImage:
       "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
-    frontImage:truewin,
+    frontImage: truewin,
     site: "https://truewinecommerce.com/",
   },
   {
@@ -51,6 +56,24 @@ const projectList = [
       "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
     frontImage: hiba,
     site: "https://hibaexportsindia.in/",
+  },
+  {
+    id: 5,
+    title: "Retro Game",
+    technologies: ["html", "css", "JavaScript"],
+    backgroundImage:
+      "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
+    frontImage: retroGame,
+    site: "https://naveenmathramkott.github.io/Retro_game/",
+  },
+  {
+    id: 6,
+    title: "Chat Gram",
+    technologies: ["React JS", "chakra UI", "Node JS", "Express JS", "MongoDB"],
+    backgroundImage:
+      "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
+    frontImage: chatApp,
+    site: "https://chat-gram-phi.vercel.app/",
   },
 ];
 
