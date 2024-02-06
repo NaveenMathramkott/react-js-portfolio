@@ -20,7 +20,7 @@ const Footer = () => {
       <Box className={classes.footer}>
         {isMobile && <Social mobile />}
         <Typography variant="body2" color="initial">
-          © 2023 Naveen Mathramkott
+          © 2024 Naveen Mathramkott
         </Typography>
       </Box>
     </Container>
