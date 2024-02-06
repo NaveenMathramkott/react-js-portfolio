@@ -43,9 +43,7 @@ const ProjectsGallery = () => {
           <ExtendedCard
             key={selectedId}
             id={selectedId}
-            onClickLink={() =>
-              window.location.replace(getSelected(selectedId).site)
-            }
+            onClickLink={() => window.open(getSelected(selectedId).site)}
             title={getSelected(selectedId).title}
             overview={t(`projects_${selectedId}_extended_overview`)}
             backgroundImage={getSelected(selectedId).backgroundImage}

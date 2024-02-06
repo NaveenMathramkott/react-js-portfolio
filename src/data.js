@@ -4,6 +4,7 @@ import hiba from "./assets/images/hiba-exports.jpg";
 import lillyPad from "./assets/images/lillyPad.png";
 import chatApp from "./assets/images/chat-app.png";
 import retroGame from "./assets/images/retro-game.png";
+import spencer from "./assets/images/spencer.png";
 
 const skillsList = [
   { title: "React JS", value: 90 },
@@ -50,6 +51,15 @@ const projectList = [
   },
   {
     id: 4,
+    title: "Spencer Fashion Hub",
+    technologies: ["Vue JS", "Bootstrap", "PHP", "Laravel"],
+    backgroundImage:
+      "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
+    frontImage: spencer,
+    site: "https://spencerfashionhub.com/public/",
+  },
+  {
+    id: 5,
     title: "Hiba Exports",
     technologies: ["html", "Bootstrap", "php", "MySQL"],
     backgroundImage:
@@ -58,7 +68,7 @@ const projectList = [
     site: "https://hibaexportsindia.in/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Retro Game",
     technologies: ["html", "css", "JavaScript"],
     backgroundImage:
@@ -67,7 +77,7 @@ const projectList = [
     site: "https://naveenmathramkott.github.io/Retro_game/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Chat Gram",
     technologies: ["React JS", "chakra UI", "Node JS", "Express JS", "MongoDB"],
     backgroundImage:

@@ -129,7 +129,7 @@ const NvnAvt = (props) => {
             fill="none"
             stroke="#FFF"
             // strokeMiterlimit={10}
-            
+
             strokeDasharray={866}
             strokeDashoffset={866}
           /> */}
