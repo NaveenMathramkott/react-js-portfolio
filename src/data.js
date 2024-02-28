@@ -4,6 +4,7 @@ import hiba from "./assets/images/hiba-exports.jpg";
 import lillyPad from "./assets/images/lillyPad.png";
 import chatApp from "./assets/images/chat-app.png";
 import retroGame from "./assets/images/retro-game.png";
+import ecomerce from "./assets/images/ecomerce.png";
 import spencer from "./assets/images/spencer.png";
 
 const skillsList = [
@@ -84,6 +85,15 @@ const projectList = [
       "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
     frontImage: chatApp,
     site: "https://chat-gram-phi.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Ecommerce web app",
+    technologies: ["React JS", "CSS3", "Node JS", "Express JS", "MongoDB"],
+    backgroundImage:
+      "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
+    frontImage: ecomerce,
+    site: "https://emartecom.vercel.app/",
   },
 ];
 
