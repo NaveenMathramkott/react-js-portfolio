@@ -18,6 +18,7 @@ import sass from "./sass.png";
 import typescript from "./typeScript.png";
 import vercel from "./vercel.png";
 import tailwind from "./tailwind.png";
+import next from "./next.png";
 
 export const techStack = [
   {
@@ -27,6 +28,10 @@ export const techStack = [
   {
     name: reactnative,
     tag: "React Native",
+  },
+  {
+    name: next,
+    tag: "Next JS",
   },
   {
     name: html,
