@@ -6,6 +6,9 @@ import chatApp from "./assets/images/chat-app.png";
 import retroGame from "./assets/images/retro-game.png";
 import ecomerce from "./assets/images/ecomerce.png";
 import spencer from "./assets/images/spencer.png";
+import figma from "./assets/images/figma.png";
+import deliveroo from "./assets/images/deliveroo.jpeg";
+import discord from "./assets/images/discord.png";
 
 const skillsList = [
   { title: "React JS", value: 90 },
@@ -94,6 +97,40 @@ const projectList = [
       "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
     frontImage: ecomerce,
     site: "https://emartecom.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Figma Clone",
+    technologies: [
+      "Next JS",
+      "TypeScript",
+      "Shadcn",
+      "Tailwindcss",
+      "LiveBlocks",
+      "Fabric JS",
+    ],
+    backgroundImage:
+      "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
+    frontImage: figma,
+    site: "https://figma-clone-nextjs.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Deliveroo Clone",
+    technologies: ["React Native", "CSS3", "Sanity IO"],
+    backgroundImage:
+      "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
+    frontImage: deliveroo,
+    site: "https://github.com/NaveenMathramkott/deliveroo-clone",
+  },
+  {
+    id: 11,
+    title: "Discord Clone",
+    technologies: ["Next JS", "CSS3", "GUN JS", "Sanity IO"],
+    backgroundImage:
+      "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
+    frontImage: discord,
+    site: "https://github.com/NaveenMathramkott/discord-web3-nextjs",
   },
 ];
 
