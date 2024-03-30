@@ -30,7 +30,7 @@ const Background3d = () => {
       <div className={classes.container}>
         <iframe
           title="background-3d"
-          src="https://my.spline.design/awesomefolio-0c39efc3de701ba97be395cc128e4e2f/"
+          src="https://my.spline.design/untitled-8793f9e5993df5b1f1d2ce42183c1e3f/"
           frameBorder="0"
           height="100%"
           className={classes.iframe}
@@ -53,21 +53,21 @@ const useStyles = makeStyles((theme) => ({
     top: 0,
     right: 0,
     width: "100%",
-    maxWidth: "600px",
+    // maxWidth: "600px",
   },
   wrapper: {
     position: "absolute",
     top: 0,
     right: 0,
     width: "100%",
-    zIndex: -1,
+    zIndex: -10,
   },
   hideLogo: {
     position: "absolute",
-    right: 0,
+    right: 20,
     bottom: 0,
-    width: "100px",
-    height: "100px",
+    width: "150px",
+    height: "60px",
     backgroundColor: theme.palette.background.default,
   },
 }));

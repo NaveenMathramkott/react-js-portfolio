@@ -27,33 +27,35 @@ const Home = () => {
   return (
     <HomeContainer id="home">
       <div>
-        <Typography
-          component={motion.div}
-          animate={controls}
-          custom={0}
-          color="primary"
-          variant="h5"
-          style={{ marginBottom: "0px" }}
-        >
-          {t("home_welcome")}
-          <motion.div
-            style={{ display: "inline-block" }}
-            animate={{ rotate: [50, 90, 50] }}
-            transition={{ repeat: Infinity, duration: 1.4, repeatDelay: 0.7 }}
-          ></motion.div>
-          , {t("home_i")}
-        </Typography>
+        <div style={{ height: "130px" }}>
+          <Typography
+            component={motion.div}
+            animate={controls}
+            custom={0}
+            color="primary"
+            variant="h5"
+            style={{ marginBottom: "0px" }}
+          >
+            {t("home_welcome")}
+            <motion.div
+              style={{ display: "inline-block" }}
+              animate={{ rotate: [50, 90, 50] }}
+              transition={{ repeat: Infinity, duration: 1.4, repeatDelay: 0.7 }}
+            ></motion.div>
+            {t("home_i")}
+          </Typography>
 
-        <Typography
-          component={motion.p}
-          animate={controls}
-          custom={2}
-          variant="h2"
-          color="secondary"
-          className={classes.subTitle}
-        >
-          {t("home_what_i_do")}
-        </Typography>
+          <Typography
+            component={motion.p}
+            animate={controls}
+            custom={2}
+            variant="h2"
+            color="secondary"
+            className={classes.subTitle}
+          >
+            {t("home_what_i_do")}
+          </Typography>
+        </div>
         <Typography
           component={motion.p}
           animate={controls}
