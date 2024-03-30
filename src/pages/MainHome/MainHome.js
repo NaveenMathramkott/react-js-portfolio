@@ -27,7 +27,7 @@ const MainHome = () => {
       <Experience />
       <Projects />
       <Contact />
-      {!isMobile && <Background3d />}
+      <Background3d />
     </motion.main>
   );
 };
